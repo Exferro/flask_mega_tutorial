@@ -4,10 +4,6 @@ from app.forms import LoginForm
 
 
 @app.route('/')
-def root():
-    return 'Hello, root!'
-
-
 @app.route('/index')
 def index():
     user = {'username': 'Aleksei'}
